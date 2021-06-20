@@ -10,6 +10,10 @@ def main():
 def about():
     return render_template('about.html')
 
+@app.route("/jitendra.html")
+def jitendra():
+    return render_template('jitendra.html')
+
 @app.route("/tushar_new.html")
 def tushar_new():
     return render_template('tushar_new.html')
