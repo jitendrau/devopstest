@@ -14,9 +14,5 @@ def about():
 def jitendra():
     return render_template('jitendra.html')
 
-@app.route("/tushar_new.html")
-def tushar_new():
-    return render_template('tushar_new.html')
-
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=4080)
